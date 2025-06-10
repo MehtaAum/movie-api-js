@@ -13,7 +13,7 @@ input.addEventListener("input", function () {
 
     if (!input.value) return;
 
-    fetch(`http://www.omdbapi.com/?s=${input.value}&apikey=1493ff80`)
+    fetch(`https://www.omdbapi.com/?s=${input.value}&apikey=1493ff80`)
         .then((request) => request.json())
         .then((response) => {
             
@@ -39,7 +39,7 @@ input.addEventListener("input", function () {
                 divs.appendChild(Year)
 
 
-                fetch(`http://www.omdbapi.com/?i=${response.Search[i].imdbID}&apikey=1493ff80`)
+                fetch(`https://www.omdbapi.com/?i=${response.Search[i].imdbID}&apikey=1493ff80`)
                 .then((req) => req.json())
                 .then((detail) => {
                     let Director = document.createElement("h5")
