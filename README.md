@@ -7,6 +7,4 @@
 - **Example:** Typing "bat" shows movies like "Batman (1989)" with images.
 - **API Limiting:** Debouncing and daily request limit in code.
 - **OMDb API Reference:** http://www.omdbapi.com/
-- **Learn about:** 
-  - Using Tailwind CSS with Vite for styling and fast development.
-  - How to live host your app with Vite using `npm run dev -- --host`
+
